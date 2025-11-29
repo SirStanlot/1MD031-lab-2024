@@ -1,64 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
 body {
+    font-family: 'times-new-roman';
     font-size: 12pt;
 }
 
-p {
-    color: red;
-}
-
-h1 {
-    font-family: 'Agbalumo';
-    font-size: 36pt;
-}
-main, header, footer, nav ul {
-    max-width: 40rem;
-    margin: 0 auto 0 auto;
-}
-main {
-    background-color: bisque;
-}
-
-/* nav ul li {
-    display: inline-block;
-    background-color: grey;
-    padding: 1em;
-    margin: 1em;
-} */
-
-header {
-    background-image: url("../img/polacks.jpg");
-    background-size: cover;
+.headline {
+    margin: 5px;
+    height: 400px;
     overflow: hidden;
-    width: 100%;
+}
+
+#headlineText {
+    font-family: 'times-new-roman';
+    font-size: 50pt;
+    position: absolute;
+    margin-top: -200px;
+    padding-top: 50px;
+    padding-left: 390px;
+}
+
+#headlineImage {
+    opacity: 0.2;
+    width: 99%;
     height: 200px;
-    opacity: 0.5;
 }
 
-header h1 {
-    width:40rem;
-    margin: 0 auto;
-    text-align: center;
-}
-
-nav ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 9.25em);
-    gap: 1em;
-    padding: 0;
-}
-
-nav li {
-    display: block;
-    background-color: grey;
-    padding: 1em;
-}
-
-.Very-good {
-    color: green;
-}
-
-.Master {
-    color: green;
+.ingredient {
     font-weight: bold;
+    color: white;
+}
+
+#burgers {
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 3px double white;
+}
+
+#burgers ul {
+    color: lightgray;
+}
+
+#customerinfo {
+    margin: 5px;
+}
+
+#customerinfo form {
+    padding: 5px;
+    border: 3px double black;
+}
+
+button:hover {
+    background-color: green;
+}
+
+button {
+    margin: 5px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.wrapper img {
+    width: 200px;
+    height: 200px;
+}
+
+.wrapper h4 {
+    text-align: center;
 }

@@ -1,44 +1,48 @@
 <!DOCTYPE HTML>
 <html lang="en">
    <head>
-       <title>Borger</title>
-       <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Borger</title>
+    <meta charset="utf-8"/>
    </head>
    <body>
     <header>
-        <h1>Hello time for borger</h1>
+        <img src="/img/Banner.png" class="headline" id="headlineImage">
+        <h1 class="headline" id="headlineText">Hello time for borger</h1>
     </header>
     <main>
-        <section>
+        <section id="burgers">
             <h3>Pick burge</h3>
             <p>wow look at bogr</p>
-            <div style="display: inline-block">
+            <div class="wrapper">
+            <div class="silly">
                 <h4>Silly Biorgr</h4>
-                <img src="/img/SillyBurger.png" style="width: 200px">
+                <img src="/img/SillyBurger.png">
                 <ul>
                     <li>funny guy</li>
-                    <li>lactose free</li>
+                    <li><span class="ingredient">lactose</span> free</li>
                     <li>can't take him anywhere</li>
                 </ul>
             </div>
-            <div style="display: inline-block">
+            <div class="scary">
                 <h4>Scary Bargor</h4>
-                <img src="/img/ScaryBurger.png" style="width: 200px">
+                <img src="/img/ScaryBurger.png">
                 <ul>
-                    <li>Contains gluten</li>
-                    <li>Contains Lactose</li>
-                    <li>Contains cyanide</li>
+                    <li>Contains <span class="ingredient">gluten</span></li>
+                    <li>Contains <span class="ingredient">Lactose</span></li>
+                    <li>Contains <span class="ingredient">cyanide</span></li>
                 </ul>
             </div>
-            <div style="display: inline-block">
+            <div class="george">
                 <h4>George</h4>
-                <img src="/img/George.png" style="width: 200px">
+                <img src="/img/George.png">
                 <ul>
                     <li>George</li>
                 </ul>
             </div>
+            </div>
         </section>
-        <section>
+        <section id="customerinfo">
             <form>
                 <h3>So tell me about yourself</h3>
                 <h4>Where do you live</h4>
