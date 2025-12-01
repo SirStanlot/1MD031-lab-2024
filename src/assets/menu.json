@@ -1,21 +1,27 @@
 [{
-    "name": "Veggie Bliss", 
+    "name": "Silly Burger", 
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "src": "/img/SillyBurger.png",
+    "containsLactose": false, 
+    "containsGluten": false,
+    "extraLines": "Can't take him anywhere!",
+    "george": false
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Scary Burger", 
+    "kCal": 2800, 
+    "src": "/img/ScaryBurger.png",
+    "containsLactose": true, 
+    "containsGluten": true,
+    "extraLines": "Contains cyanide",
+    "george": false
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "George", 
+    "kCal": "", 
+    "src": "/img/George.png",
+    "containsLactose": false, 
+    "containsGluten": false,
+    "extraLines": "George",
+    "george": true
 }]
